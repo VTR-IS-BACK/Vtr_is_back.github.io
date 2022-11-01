@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', sans-serif;
+}
+
+:root {
+    --bgcolor : #161616;
+    --accentcolor: #c300ff;
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+.VTR-Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+}
+.VTR-Page img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.VTR-Page h1 {
+    font-size: 2.5rem;
+}
+
+.VTR-Page a {
+    background-color: var(--accentcolor);
+    color: var(--bgcolor);
+    width: 50%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    border: solid 3px var(--accentcolor);
+    transition: all 0.5s border-radius();
+}
+
+.VTR-Page a:hover {
+    background-color: var(--bgcolor);
+    color: var(--accentcolor);
+}
+a
+ @media (min-width: 1024px) {
+    .VTR-Page {
+        widthVTR-Page: 40vw;
+    }
+}
