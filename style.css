@@ -37,7 +37,7 @@ body {
 .VTR-Page a {
     background-color: var(--accentcolor);
     color: var(--bgcolor);
-    width: 50%;
+    width: 40%;
     padding: 15px;
     text-decoration: none;
     text-align: center;
